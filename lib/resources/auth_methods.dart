@@ -57,7 +57,7 @@ class AuthMethods {
             .doc(cred.user!.uid)
             .set(user.toJson());
 
-        res = 'success';
+        res = 'Success';
       }
     } catch (err) {
       res = err.toString();

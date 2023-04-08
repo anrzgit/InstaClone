@@ -7,7 +7,8 @@ class UserProvider with ChangeNotifier {
   User? _user = User(
     email: "anrz@gmail.com",
     uid: "dfdf",
-    photoUrl: "fdsfsdf",
+    photoUrl:
+        "https://yt3.googleusercontent.com/ytc/AL5GRJWX0AY6ndjq2F3EcLvu8wYXd_MHCFlUuSqN90hzdQ=s900-c-k-c0x00ffffff-no-rj",
     username: "anrz",
     bio: 'dsfsfsdf',
     followers: ['dfd'],

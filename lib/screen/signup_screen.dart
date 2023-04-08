@@ -59,7 +59,7 @@ class _SignupScreenState extends State<SignupScreen> {
     setState(() {
       _isLoading = false;
     });
-    if (res != 'success') {
+    if (res != 'Success') {
       //snack bar
       showSnackBar(res, context);
     } else {
@@ -112,7 +112,7 @@ class _SignupScreenState extends State<SignupScreen> {
                         radius: 64,
                         backgroundImage: MemoryImage(_image!),
                       )
-                    : CircleAvatar(
+                    : const CircleAvatar(
                         radius: 64,
                         backgroundImage:
                             AssetImage('assets/images/default_avatar.png')),
