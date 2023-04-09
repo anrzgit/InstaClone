@@ -156,10 +156,14 @@ class _SignupScreenState extends State<SignupScreen> {
             const SizedBox(
               height: 24,
             ),
-            TextFieldInput(
-              hintText: 'Enter your bio',
-              textInputType: TextInputType.text,
-              textEditingController: _bioController,
+            Container(
+              margin: EdgeInsets.only(
+                  bottom: MediaQuery.of(context).viewInsets.bottom),
+              child: TextFieldInput(
+                hintText: 'Enter your bio',
+                textInputType: TextInputType.text,
+                textEditingController: _bioController,
+              ),
             ),
             const SizedBox(
               height: 24,
